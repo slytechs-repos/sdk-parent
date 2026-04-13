@@ -6,7 +6,7 @@
 
     <groupId>com.slytechs.sdk</groupId>
     <artifactId>sdk-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Sly Technologies SDK Parent</name>
@@ -183,6 +183,17 @@
                 </repository>
             </distributionManagement>
         </profile>
+		<profile>
+		    <id>gpg</id>
+		    <build>
+		        <plugins>
+		            <plugin>
+		                <groupId>org.apache.maven.plugins</groupId>
+		                <artifactId>maven-gpg-plugin</artifactId>
+		            </plugin>
+		        </plugins>
+		    </build>
+		</profile>
     </profiles>
 
 </project>
