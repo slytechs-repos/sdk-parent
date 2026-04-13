@@ -6,7 +6,7 @@
 
     <groupId>com.slytechs.sdk</groupId>
     <artifactId>sdk-parent</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Sly Technologies SDK Parent</name>
